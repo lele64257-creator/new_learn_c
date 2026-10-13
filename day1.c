@@ -21,8 +21,8 @@ int main(void)
     printTable(7);
     printTable(9);
     printf("\n");
-    stars(5);
-    stars(6);
+    for (int i = 1; i <= 5; i++)
+        stars(i);
 
     return 0;
 
